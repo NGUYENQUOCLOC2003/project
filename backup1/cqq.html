@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tính Toán</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h2 {
+            color: #ff6347; /* Màu đỏ */
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        form {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        input[type="number"] {
+            width: 80px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #ff6347; /* Màu đỏ */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        button:hover {
+            background-color: #e55342; /* Màu đỏ tối hơn khi hover */
+        }
+    </style>
+</head>
+<body>
+    <h2>Nhập số</h2>
+    <form action="hello.php" method="POST">
+        <label for="num1">Số:</label>
+        <input type="number" id="num1" name="num1" required><br>
+        <span>nhân vô</span><br>
+        <label for="num3">Số:</label>
+        <input type="number" id="num3" name="num3" required><br>
+        <button type="submit">Nhấn vào đây</button>
+    </form>
+</body>
+</html>
