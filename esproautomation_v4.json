@@ -1,0 +1,65 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"esproautomation_v4"},
+{"type":"table","name":"bientan","database":"esproautomation_v4","data":
+[
+{"id":"1","MODEL":"Biến tần Allen Bradley 20G1ANF098JN0NNNNN 90kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"2","MODEL":"Biến tần Allen Bradley 20G1ANF082JN0NNNNN 75kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"3","MODEL":"Biến tần Allen Bradley 20G1ANF012JN0NNNNN 7.5kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"4","MODEL":"Biến tần Allen Bradley 20G1ANF061JN0NNNNN 55kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"5","MODEL":"Biến tần Allen Bradley 20G1ANF050JN0NNNNN 45kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"6","MODEL":"Biến tần Allen Bradley 20G1ANF046JN0NNNNN 37kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/GlNDd4X.jpeg"},
+{"id":"7","MODEL":"Biến tần Allen Bradley 20G1ANF034JN0NNNNN 30kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"8","MODEL":"Biến tần Allen Bradley 20G1ANF263JN0NNNNN 250kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"9","MODEL":"Biến tần Allen Bradley 20G1ANF030JN0NNNNN 22kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"10","MODEL":"Biến tần Allen Bradley 20G1ANF212JN0NNNNN 200kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"11","MODEL":"Biến tần Allen Bradley 20G1ANF023JN0NNNNN 18.5kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"12","MODEL":"Biến tần Allen Bradley 20G1ANF171JN0NNNNN 160kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"13","MODEL":"Biến tần Allen Bradley 20G1ANF020JN0NNNNN 15kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"14","MODEL":"Biến tần Allen Bradley 20G1ANF142JN0NNNNN 132kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"15","MODEL":"Biến tần Allen Bradley 20G1ANF015JN0NNNNN 11kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"16","MODEL":"Biến tần Allen Bradley 20G1ANF119JN0NNNNN 110kW","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"17","MODEL":"Biến tần Allen Bradley 20G1ANC170JN0NNNNN 90kW 3 Pha 380V","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"18","MODEL":"Biến tần Allen Bradley 20G1ANC140JN0NNNNN 75kW 3 Pha 380V","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"19","MODEL":"Biến tần Allen Bradley 20G11RC015JA0NNNNN 7.5kW 3 Pha 380V","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"20","MODEL":"Biến tần Allen Bradley 20G11NC104JA0NNNNN 55kW 3 Pha 380V","Price":"Hãy liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/gQzSXUm.jpeg"},
+{"id":"22","MODEL":"ModelX","Price":"1500","ImageURL":"https:\/\/i.imgur.com\/atkoyDJ.jpeg"},
+{"id":"23","MODEL":"ModelX","Price":"1500","ImageURL":"https:\/\/i.imgur.com\/atkoyDJ.jpeg"}
+]
+}
+,{"type":"table","name":"hoachat","database":"esproautomation_v4","data":
+[
+{"ID":"312023","MODEL":"Bột trộn bề mặt mangan LH-417","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312024","MODEL":"Chất xà phòng hóa LH-410","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312025","MODEL":"Chất bịt kín LH-409","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312026","MODEL":"LH-408 phosphat hóa mangan","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312027","MODEL":"Nước tẩy sáp axit LH-2135","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312028","MODEL":"Bột tẩy dầu mỡ điện phân hợp kim LH-303e","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312029","MODEL":"LH-470 silan","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312030","MODEL":"Đồ gốm LH-461","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312031","MODEL":"LH-407 kẽm mangan phosphating","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312032","MODEL":"Loại bỏ axit LH-403","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312033","MODEL":"Chất tẩy nhờn axit LH-402","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312034","MODEL":"LH-401B bốn trong một phosphating","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312035","MODEL":"LH-401 phosphat hóa sắt","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312036","MODEL":"Điện phân axit LH-2042","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312037","MODEL":"Muối axit LH-K7","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312038","MODEL":"Nước tẩy sáp hợp kim LH-2108","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312039","MODEL":"Bột tẩy dầu mỡ điện phân LH-1011","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312040","MODEL":"Bột tẩy dầu mỡ hợp kim đồng LH-305C","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312041","MODEL":"Bột tẩy dầu mỡ thép LH-304","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312042","MODEL":"Bột tẩy dầu mỡ hợp kim NP-24C","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312043","MODEL":"LH-405","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312044","MODEL":"Chất tẩy rửa môi trường LH-2903","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312045","MODEL":"Nước tẩy lông mạnh LH-2107","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312046","MODEL":"Bột tẩy dầu và sáp LH-2373","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312047","MODEL":"Bột tẩy dầu và sáp LH-2372","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312048","MODEL":"Bột tẩy dầu mỡ LH-2370","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312049","MODEL":"Bột tẩy cặn điện phân LH-517","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312050","MODEL":"Bột dầu nhả điện không chứa phốt pho hợp kim NPZ-25E","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312051","MODEL":"Bột tẩy dầu mỡ điện phân LH-1012","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312052","MODEL":"Bột tẩy dầu mỡ hợp kim NP-22C","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"},
+{"ID":"312053","MODEL":"LH-406 phosphat kẽm","Price":"Liên hệ với chúng tôi","ImageURL":"https:\/\/i.imgur.com\/3BPloBb.jpeg"}
+]
+}
+]
