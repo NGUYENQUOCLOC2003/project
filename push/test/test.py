@@ -8,6 +8,7 @@ import time
 driver = webdriver.Chrome()
 
 # Mở trang web cần kiểm tra
+# https://nguyenquocloc2003.github.io/project/push/test/index.html
 driver.get("https://rough-earthy-cotton.glitch.me/")
 
 # Hàm kiểm tra kết quả từng test case
