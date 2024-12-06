@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm Tra Phép Cộng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            position: relative;
+        }
+
+        label {
+            font-size: 18px;
+            margin-bottom: 8px;
+            display: block;
+            color: #333;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+
+        input[type="number"]:focus {
+            border-color: #4CAF50;
+            outline: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Thông báo */
+        .notification {
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            padding: 15px;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .notification.show {
+            display: block;
+            opacity: 1;
+        }
+
+        .alert {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .success {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+    <script>
+        function calculate() {
+            var num1 = parseInt(document.getElementById("num1").value);
+            var num2 = parseInt(document.getElementById("num2").value);
+            var userResult = parseInt(document.getElementById("num3").value);
+
+            // Kiểm tra xem người dùng đã nhập đủ số liệu chưa
+            if (isNaN(num1) || isNaN(num2) || isNaN(userResult)) {
+                showNotification("Vui lòng nhập đầy đủ các số.", "alert");
+                return;
+            }
+
+            // Tính toán kết quả đúng
+            var correctResult = num1 + num2;
+
+            // Lấy phần tử thông báo
+            var notificationBox = document.getElementById("notification");
+
+            // Kiểm tra kết quả nhập vào
+            if (userResult === correctResult) {
+                notificationBox.className = "notification success show";
+                notificationBox.textContent = "Đúng rồi nè anh Lộc hoang hô 💋💋💋! Kết quả là: " + correctResult;
+            } else {
+                notificationBox.className = "notification alert show";
+                notificationBox.textContent = "Sai rồi 😔! Kết quả đúng phải là: " + correctResult;
+            }
+
+            // Tự động ẩn thông báo sau 3 giây
+            setTimeout(function() {
+                notificationBox.classList.remove("show");
+            }, 3000);
+        }
+
+        function showNotification(message, type) {
+            var notificationBox = document.getElementById("notification");
+            notificationBox.textContent = message;
+            notificationBox.className = "notification " + type + " show";
+
+            // Tự động ẩn thông báo sau 3 giây
+            setTimeout(function() {
+                notificationBox.classList.remove("show");
+            }, 3000);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <h1>Kiểm Tra Phép Cộng</h1>
+        <label for="num1">Số thứ nhất:</label>
+        <input type="number" id="num1" name="num1" placeholder="Nhập số thứ nhất">
+
+        <label for="num2">Số thứ hai:</label>
+        <input type="number" id="num2" name="num2" placeholder="Nhập số thứ hai">
+
+        <label for="num3">Kết quả của bạn:</label>
+        <input type="number" id="num3" name="num3" placeholder="Nhập kết quả của bạn">
+
+        <button type="button" onclick="calculate()">Kiểm tra</button>
+
+        <!-- Thông báo -->
+        <div id="notification" class="notification"></div>
+    </form>
+</body>
+</html>
